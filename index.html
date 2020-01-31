@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>SoundMansion</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+</head>
+<body>
+  
+<!-- <div id="soundman">
+    <img src="images/logo.png">
+</div> -->
+<div id="outer">
+  
+  <div id="wrapper">
+    <div id="header">
+      
+      
+      <h1>SoundMansion</h1>
+      <p>Y.M.L. Inc</p>
+
+    </div>
+    <div id="nav">
+      <div id="head"></div>
+      <div id="head-pip"></div>
+      <ul>
+        <li id="m1"><a href="javascript:void(0)">Latest News</a></li>
+        <li id="m2"><a href="javascript:void(0)">Music</a></li>
+        <li id="m3"><a href="javascript:void(0)">About</a></li>
+        <li id="m4"><a href="javascript:void(0)">Visuals</a></li>
+        <li id="m5"><a href="javascript:void(0)">Online Stores</a></li>
+        <li id="m6"><a href="javascript:void(0)">Contact Y.M.L</a></li>
+      </ul>
+      <!-- <div id="search">
+        <h2>Search Music Online</h2>
+        <form action="#">
+          <input type="text" class="text" name="q" value="" id="q" />
+          <input type="submit" name="submit" value="Go &gt; &gt;" id="submit" class="submit" />
+        </form>
+       
+       <div id="lemon">
+        <a href="#">Advanced Search</a> | <a href="#">Search Tips</a> </div> </div> -->
+    </div>
+    <div id="body">
+      <div id="body-inner">
+        <div id="body-left">
+          <div id="topic-pic"> <img src="images/logo/soudman.png" width="259" height="199" alt="SoundMansion" /> </div>
+          <h2>Latest Vibes by Y.M.L (Inc Boss)</h2>
+          <p>Don't forget to check <a href="#">My IG page</a> every day, because we add at least one freestyle, Hottest Songs daily.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum id laboriosam veritatis atque eum impedit
+             deleniti aut magni, quo nemo quos esse corrupti ea assumenda officiis iusto</p>   
+             <div id="soundlogo">
+              <img src="images/logo/soudman.png" height="223px">
+            </div>
+          
+             <ul class="blank">
+            <li><a href="#">&gt; &nbsp; Top 10 Countdown</a></li>
+            <li><a href="#">&gt; &nbsp; New Releases</a></li>
+            <li><a href="#">&gt; &nbsp; Naija Vibes</a></li>
+            <li><a href="#">&gt; &nbsp; Foreign Hip-Hop</a></li>
+          </ul>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum id laboriosam veritatis atque eum impedit deleniti 
+            aut magni, quo nemo quos esse corrupti ea 
+            assumenda officiis iusto consectetur
+            <a href="#">forum</a>. Lorem ipsum dolor, 
+            sit amet consectetur adipisicing elit. Voluptates 
+            assumenda dolore quibusdam ex quis iusto error, 
+            tempore placeat consequuntur? Provident impedit 
+            numquam expedita consequuntur autem maiores 
+            dolores eum aliquid nobis.</p>
+
+
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum inventore eum aliquid saepe illum porro vitae, quam est deserunt perspiciatis labore? Nulla beatae officiis 
+            asperiores autem exercitationem amet itaque?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum inventore eum aliquid saepe illum porro vitae, quam est deserunt perspiciatis labore? Nulla beatae officiis 
+            asperiores autem exercitationem amet itaque?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum inventore eum aliquid saepe illum porro vitae, quam est deserunt perspiciatis labore? Nulla beatae officiis 
+            asperiores autem exercitationem amet itaque?
+          </p>
+            
+          <div id="soundlogo">
+            <img src="images/logo/soudman.png" height="223px">
+          </div>
+        
+
+          
+        </div>
+        
+        <div id="body-right">
+          <h2>Music Catagories</h2>
+          <!--
+            sytativsssssssssssssssssssss
+
+
+
+
+
+            -->
+            <div id='musics'>
+
+            </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div id="copyright">
+        <div id="copyright-left"> Copyright &copy; all right reserved | designed by <a href="https://twitter.com/folayanyemi">Y.M.L</a></div>
+      </div>
+      <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+
+
+
+  
+</div>
+<script src="app.js"></script>
+<script>
+  window.txtBtn = "Listen"
+    // var btn = document.getElementById("btn");
+    // btn.innerText = window.txtBtn
+      function playy(index){
+      
+        var btn = document.querySelector(`[att="ah${index}"]`);
+        var audio = document.querySelector(`[att="au${index}"]`);
+       if(audio.duration > 0 && !audio.paused){
+     
+        audio.pause(); 
+          btn.innerText = 'Listen'
+        }
+        else{
+          audio.play();
+          btn.innerText = 'Pause'
+        }
+
+                     }
+
+                     function playy2(a,i){
+                      var btn = document.querySelector(`[att="ah${i}"]`);
+                       if(a == 'play') {
+                        btn.innerText = 'Pause'
+                       }
+                       else {
+                        btn.innerText = 'Listen'
+                       }
+                     }
+                     
+
+
+</script>
+
+
+</body>
+
+
+</html>
+
+

@@ -1,0 +1,23 @@
+{
+	"items":[
+
+
+{
+		"song"  : "track1.mp3",
+		"title" : "Track 1",
+		"image" : { "url": "./images/coverart.jpg"}
+	},
+	{
+		"song"  : "track2.mp3",
+		"title" : "Track 2",
+		"image" : { "url": "./images/coverart.jpg"}
+	},
+	{
+		"song"  : "track3.mp3",
+		"title" : "Track 3",
+		"image" : { "url": "./images/coverart.jpg"}
+	}
+
+
+]
+
